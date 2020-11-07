@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap");
+
+.card {
+  max-height: 500px;
+  background-color: red;
+  font-family: "Quicksand", sans-serif;
+}
+.card__main {
+  display: flex;
+  max-height: 500px;
+}
+
+.card__image {
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  padding: 3px;
+}
+
+.card__info {
+  color: black;
+}
+
+.card__name {
+  color: #f6eec9;
+  font-weight: bold;
+  font-size: 50px;
+}
